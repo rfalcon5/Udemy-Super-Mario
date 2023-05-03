@@ -15,3 +15,4 @@ class Coin(EntityBase):
         if self.alive:
             self.animation.update()
             self.screen.blit(self.animation.image, (self.rect.x + cam.x, self.rect.y))
+##change
